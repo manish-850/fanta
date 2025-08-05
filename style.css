@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "sans-bold";
+    src: url(./Font/Product\ Sans\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "sans-regular";
+    src: url(./Font/Product\ Sans\ Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-regular";
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main {
+    width: 100%;
+}
+
+#main nav {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7vw;
+    z-index: 99;
+}
+
+#main nav img {
+    height: 80%;
+}
+
+#main nav #center-part {
+    display: flex;
+    gap: 35px;
+}
+
+#main nav #center-part a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25vw;
+}
+
+#main nav #right-part {
+    display: flex;
+    gap: 35px;
+}
+
+#main nav #right-part input {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255,0.5);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1.25vw;
+}
+
+#main nav #right-part #search-btn {
+    background-color: rgba(17, 17, 17,0.5);
+    color: #fff;
+
+}
+
+#main nav #right-part input:focus {
+    outline: none;
+}
+
+#main #page1{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(150deg, rgb(255, 145, 0), rgb(255, 51, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#main #page1 h1{
+    font-size: 22vw;
+    color: #fff;
+    font-family: "sans-bold";
+}
+#main #page1 #fanta{
+    top: 25%;
+    position: absolute;
+    width: 40%;
+    z-index: 98;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#main #page1 #half-orange{
+    top: 15%;
+    left: 32%;
+    position: absolute;
+    width: 15%;
+    z-index: 97;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#main #page1 #oranges{
+    bottom: 0%;
+    right: 32%;
+    position: absolute;
+    width: 15%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#main #page1 #leaf{
+    top: 18%;
+    left: 8%;
+    position: absolute;
+    width: 15%;
+    transform: rotate(60deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#main #page1 #leaf2{
+    bottom: 5%;
+    right: 5%;
+    position: absolute;
+    width: 13%;
+    transform: rotate(-80deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#main #page1 #coco-leaf{
+    top: 10%;
+    right: 0%;
+    position: absolute;
+    width: 25%;
+}
+
+
+
+#main #page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #3f2929;
+    display: flex;
+}
+
+#main #page2 .container{
+    width: 50%;
+    height: 100%;
+}
+#main #page2 .container svg{
+    margin-top: 40vh;
+    width: 80%;
+    transform: rotateX(80deg);
+}
+
+#main #page2 #right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1vh;
+}
+#main #page2 #right h1{
+    margin-top: -18vh;
+    font-size: 50px;
+    font-family: "sans-bold";
+    z-index: 2;
+}
+#main #page2 #right p{
+    text-align: justify;
+    width: 90%;
+    font-size: medium;
+    color: #dadada;
+}
+
+#main #page3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D6D85D;
+    position: relative;
+}
+
+#main #page3 .card{
+    width: 25%;
+    height: 80vh;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#main #page3 .card .main-img{
+    height: 70%;
+    z-index: 10;
+    position: absolute;
+    left: 12%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+#main #page3 .card .main-img3{
+    left: 5%;
+}
+#main #page3 .card .bg-img{
+    top: -20%;
+    left: 5%;
+    width: 90%;
+    position: absolute;
+    left: 3%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#main #page3 .card p{
+    font-size: 14px;
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15%;
+}
+
+#main #page3 .card button{
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3%;
+}
