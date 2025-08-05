@@ -68,26 +68,27 @@ tl2.to("#half-orange",{
     ease: "power2.out",
 },"anime2");
 
-tl2.from(".main-img1",{
-    rotate:"-90deg",
-    left:"-100%",
-    ease: "power2.out",
-},"anime2");
+// tl2.from(".main-img1",{
+//     rotate:"-90deg",
+//     left:"-100%",
+//     ease: "power2.out",
+// },"anime2");
 
-tl2.from(".bg-img1",{
-    rotate:"-90deg",
-    left:"-100%",
-    ease: "power2.out",
-},"anime2");
+// tl2.from(".bg-img1",{
+//     rotate:"-90deg",
+//     left:"-100%",
+//     ease: "power2.out",
+// },"anime2");
 
-tl2.from(".main-img3",{
-    rotate:"90deg",
-    left:"100%",
-    ease: "power2.out",
-},"anime2");
+// tl2.from(".main-img3",{
+//     rotate:"90deg",
+//     left:"100%",
+//     ease: "power2.out",
+// },"anime2");
 
-tl2.from(".bg-img3",{
-    rotate:"90deg",
-    left:"100%",
-    ease: "power2.out",
-},"anime2");
+// tl2.from(".bg-img3",{
+//     rotate:"90deg",
+//     left:"100%",
+//     ease: "power2.out",
+
+// },"anime2");
