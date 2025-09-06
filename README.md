@@ -6,15 +6,13 @@ This project focuses on **animations, smooth scrolling effects, and product card
 ---
 
 ## 🚀 Live Demo
-👉 [View Website](https://manish-850.github.io/fanta-ui/)  
-*(Update this link with your actual GitHub Pages deployment URL)*
+👉 [View Website](https://manish-850.github.io/fanta-ui/)
 
 ---
 
 ## 📸 Preview
 
-![Fanta Website Screenshot](./Img/fanta.webp)  
-*(You can replace this with a GIF or a screenshot of your site for better presentation.)*
+![Fanta Website Screenshot](./Img/preview.gif)
 
 ---
 
