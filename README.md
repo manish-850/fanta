@@ -69,4 +69,4 @@ All product names, logos, and brands (e.g., **Fanta**) belong to their respectiv
 
 ---
 
-💡 *Made with ❤️ for practice by [Your Name](https://github.com/your-username)*
+💡 *Made with ❤️ for practice by [Manish](https://github.com/manish-850)*
