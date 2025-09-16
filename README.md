@@ -6,7 +6,7 @@ This project focuses on **animations, smooth scrolling effects, and product card
 ---
 
 ## 🚀 Live Demo
-👉 [View Website](https://manish-850.github.io/fanta-ui/)
+👉 [View Website](https://manish-850.github.io/fanta/)
 
 ---
 
@@ -49,7 +49,7 @@ This project focuses on **animations, smooth scrolling effects, and product card
 ## ⚡ Getting Started
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/fanta-ui.git
+   git clone https://github.com/manish-850/fanta.git
    ```
 2. Open `index.html` in your browser.
 
