@@ -55,9 +55,7 @@ This project focuses on **animations, smooth scrolling effects, and product card
 
 ---
 
-## 🔮 Future Improvements
-- Add **real product details** instead of placeholder text.  
-- Implement a **shopping cart** for "BUY NOW" functionality.  
+## 🔮 Future Improvements  
 - Optimize images for faster loading.  
 - Enhance **mobile responsiveness**.  
 
@@ -69,4 +67,4 @@ All product names, logos, and brands (e.g., **Fanta**) belong to their respectiv
 
 ---
 
-💡 *Made with ❤️ for practice by [Manish](https://github.com/manish-850)*
+💡 *Made for practice by [Manish](https://github.com/manish-850)*
