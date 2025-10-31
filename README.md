@@ -12,7 +12,7 @@ This project focuses on **animations, smooth scrolling effects, and product card
 
 ## 📸 Preview
 
-![Fanta Website Screenshot](./Img/preview.gif)
+![Fanta Website gif](./Img/preview.gif)
 
 ---
 
