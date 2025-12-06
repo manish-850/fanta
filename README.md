@@ -1,6 +1,6 @@
 # Fanta Website UI (Clone)
 
-A **UI-only clone** of a cold drink (Fanta) landing page, built with **HTML, CSS, and JavaScript**.  
+A **UI** of a cold drink (Fanta) landing page, built with **HTML, CSS, and JavaScript**.  
 This project focuses on **animations, smooth scrolling effects, and product card interactions** to showcase Fanta in a modern, visually appealing way.  
 
 ---
